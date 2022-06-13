@@ -265,7 +265,7 @@ console.log(myProfile);
 let word = "Hello";
 
 function reverseWord(word){
-    return word.split('').reverse().join('');
+    return word.split('').reverse().join(''); // split the word into an array, reverse the array, and join the array back into a string
 }
 console.log(reverseWord(word));
 
